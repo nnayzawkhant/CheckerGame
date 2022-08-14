@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(60, 5, 179);
 }
 .Container{
     position: relative;
