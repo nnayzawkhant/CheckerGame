@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.Container{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+.row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cell{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.white{
+    background-color: #FFFFFF;
+}
+.black{
+    background-color: black;
+}
+.ball{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: #ccc;
+    cursor: pointer;
+    border: 6px solid #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.6s ease;
+}
+.player-1{
+    background: blue;
+}
+.player-2{
+    background-color: red;
+}
+/* .player-2.ball-12{
+    top: -60px;
+    left: -60px;
+} */
+
+.player-2.ball-1{
+    top: 530px;
+    left: 80px;
+}
+.player-2.ball-2{
+    top: 530px;
+    left: 230px;
+}
+.player-2.ball-3{
+    top: 530px;
+    left: 380px;
+}
+.player-2.ball-4{
+    top: 530px;
+    left: 530px;
+}
+.player-2.ball-5{
+    top: 455px;
+    left: 5px;
+}
+.player-2.ball-6{
+    top: 455px;
+    left: 155px;
+}
+.player-2.ball-7{
+    top: 455px;
+    left: 305px;
+}
+.player-2.ball-8{
+    top: 455px;
+    left: 455px;
+}
+.player-2.ball-9{
+    top: 380px;
+    left: 80px;
+}
+.player-2.ball-10{
+    top: 380px;
+    left: 230px;
+}
+.player-2.ball-11{
+    top: 380px;
+    left: 380px;
+}
+.player-2.ball-12{
+    top: 380px;
+    left: 530px;
+}
+
+
+
+
+
+
+.player-1.ball-1{
+    top: 5px;
+    left: 5px;
+}
+.player-1.ball-2{
+    top: 5px;
+    left: 155px;
+}
+.player-1.ball-3{
+    top: 5px;
+    left: 305px;
+}
+.player-1.ball-4{
+    top: 5px;
+    left: 455px;
+}
+.player-1.ball-5{
+    top: 80px;
+    left: 80px;
+}
+.player-1.ball-6{
+    top: 80px;
+    left: 230px;
+}
+.player-1.ball-7{
+    top: 80px;
+    left: 380px;
+}
+.player-1.ball-8{
+    top: 80px;
+    left: 530px;
+}
+.player-1.ball-9{
+    top: 155px;
+    left: 5px;
+}
+.player-1.ball-10{
+    top: 155px;
+    left: 155px;
+}
+.player-1.ball-11{
+    top: 155px;
+    left: 305px;
+}
+.player-1.ball-12{
+    top: 155px;
+    left: 455px;
+}
+
+.player-1.ball-13{
+    top: 230px;
+    left: 80px;
+}
+.player-1.ball-14{
+    top: 230px;
+    left: 230px;
+}
+.player-1.ball-15{
+    top: 230px;
+    left: 380px;
+}
+.player-1.ball-16{
+    top: 230px;
+    left: 530px;
+}
+.player-1.ball-17{
+    top: 305px;
+    left: 5px;
+}
+.player-1.ball-18{
+    top: 305px;
+    left: 155px;
+}
+.player-1.ball-19{
+    top: 305px;
+    left: 305px;
+}
+.player-1.ball-20{
+    top: 305px;
+    left: 455px;
+}
+
+.ball.selected {
+    border-color:yellow ;
+    z-index: 200;
+}
